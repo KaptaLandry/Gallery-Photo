@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Splash&display=swap');
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-family: 'Macondo', cursive;
+
+}
+
+body {
+    background: linear-gradient(to left, #00aaff, #00ff6c);
+}
+
+.ibtn {
+    width: 140px;
+    display: flex;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20%;
+    box-shadow: lawngreen;
+    opacity: 0.75;
+}
+
+h1 {
+    text-align: center;
+    color: chartreuse;
+    margin: 30px 0 20px;
+}
+
+.gal {
+    margin: 10px 50px;
+}
+
+.gal img {
+    width: 210px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gal img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+    margin: 7px;
+}
